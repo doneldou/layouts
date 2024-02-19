@@ -11,8 +11,8 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
+    <header class="header">
+      <div class="container">
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item">
@@ -33,30 +33,55 @@
           </ul>
         </nav>
         <hr />
-      </header>
-      <main class="main">
-        <section class="look-at-me section">
-          <div class="look-at-me__row">
-            <div class="look-at-me__col look-at-me__col_big">
-              <span class="look-at-me__item">Denis</span>
-              <span class="look-at-me__item">Novik</span>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="section">
+        <div class="container">
+          <div class="look-at-me">
+            <div class="look-at-me__row">
+              <div class="look-at-me__col look-at-me__col_big">
+                <span class="look-at-me__item">Denis</span>
+                <span class="look-at-me__item">Novik</span>
+              </div>
+              <div class="look-at-me__col look-at-me__col_center">
+                <span class="look-at-me__item">UX | UI designer</span>
+                <span class="look-at-me__item">24 years old, Minsk</span>
+              </div>
+              <div class="look-at-me__col look-at-me__col_vertical">
+                <!-- Нужно ли делать класс link для всех сслылок -->
+                <a class="look-at-me__link" href="#">RU</a>
+                |
+                <a class="look-at-me__link look-at-me__link_active" href="#"
+                  >ENG</a
+                >
+              </div>
             </div>
-            <div class="look-at-me__col look-at-me__col_center">
-              <span class="look-at-me__item">UX | UI designer</span>
-              <span class="look-at-me__item">24 years old, Minsk</span>
-            </div>
-            <div class="look-at-me__col look-at-me__col_vertical">
-              <!-- Нужно ли делать класс link для всех сслылок -->
-              <a class="look-at-me__link" href="#">RU</a>
-              |
-              <a class="look-at-me__link look-at-me__link_active" href="#"
-                >ENG</a
-              >
-            </div>
+            <div class="look-at-me__photo"></div>
           </div>
-          <div class="look-at-me__photo"></div>
-        </section>
-      </main>
-    </div>
+        </div>
+      </section>
+
+      <section class="section section_grey">
+        <div class="container">
+          <div class="about-me">
+            <h2 class="about-me__title">About me</h2>
+            <p class="about-me__paragrаph">
+              Hi, I'm Denis – UX/UI designer from Minsk.<br />
+              I'm interested in design and everything connected with it.
+            </p>
+            <p class="about-me__paragrаph">
+              I'm studying at courses "Web and mobile design <br />
+              interfaces" in IT-Academy.
+            </p>
+            <p class="about-me__paragrаph">
+              Ready to implement excellent projects<br />
+              with wonderful people.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
