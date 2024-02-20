@@ -167,3 +167,41 @@ hr {
   font-size: 18px;
   color: #070707;
 }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts__title {
+  margin-bottom: 0px;
+}
+.contacts__paragraph {
+  margin-top: 30px;
+}
+.contacts__paragraph:last-child {
+  color: #828282;
+  font-size: 14px;
+}
+.contacts__button {
+  margin-top: 30px;
+  width: 180px;
+  height: 42px;
+  border-radius: 19px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+}
+.contacts__services {
+  margin-top: 120px;
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+}
