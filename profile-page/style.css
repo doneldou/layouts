@@ -117,7 +117,7 @@ hr {
   display: flex;
   justify-content: space-between;
 }
-.skills_paragraph {
+.skills__paragraph {
   margin-bottom: 36px;
 }
 .skills__item {
@@ -136,7 +136,7 @@ hr {
   font-weight: 90px;
   height: 160px;
 }
-.skills_caption {
+.skills__caption {
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
