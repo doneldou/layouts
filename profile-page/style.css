@@ -13,6 +13,16 @@ body {
 .container {
   width: 940px;
 }
+.title {
+  font-size: 34px;
+  margin-top: 0px;
+  margin-bottom: 18px;
+}
+.paragrаph {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
 
 .nav__list {
   list-style-type: none;
@@ -94,9 +104,47 @@ hr {
   align-items: center;
   margin: 80px 0px;
 }
-.about-me__title {
-  font-size: 34px;
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 80px 0px;
 }
-.about-me__paragrаph {
+.skills__i-can {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+}
+.skills_paragraph {
+  margin-bottom: 36px;
+}
+.skills__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 170px;
+  height: 200px;
+}
+.skills__app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-weight: 90px;
+  height: 160px;
+}
+.skills_caption {
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
+  font-size: 14px;
+  color: #828282;
+}
+.skills__grade {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
 }
