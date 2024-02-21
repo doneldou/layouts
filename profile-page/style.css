@@ -23,7 +23,6 @@ body {
   font-size: 18px;
   font-weight: 500;
 }
-
 .nav__list {
   list-style-type: none;
   margin: 0;
@@ -46,6 +45,9 @@ body {
 hr {
   margin: 0;
   border: 1px solid #828282;
+}
+.look-at-me__button {
+  display: none;
 }
 
 .section {
@@ -204,4 +206,68 @@ hr {
   width: 340px;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+  .header {
+    display: none;
+  }
+  .container {
+    width: 316px;
+  }
+  .paragrаph {
+    font-size: 14px;
+  }
+
+  .look-at-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .look-at-me__row {
+    width: 316px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-basis: 50%;
+  }
+
+  .look-at-me__button {
+    display: block;
+    margin-top: 15px;
+    align-self: start;
+    background-color: transparent;
+    border: none;
+  }
+
+  .look-at-me__col_vertical {
+    display: none;
+    position: absolute;
+  }
+  .look-at-me__photo {
+    width: 316px;
+    height: 478px;
+    background-image: url(image/1.jpg);
+    background-size: cover;
+  }
+  .skills__i-can {
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills__item {
+    margin-bottom: 50px;
+  }
+  .skills__app {
+    margin-bottom: 20px;
+  }
+  .portfolio__item {
+    margin: 0 0 100px 0;
+  }
+  .portfolio__img {
+    width: 316px;
+    height: 171px;
+  }
+  .contacts__button {
+    width: 316px;
+  }
 }
