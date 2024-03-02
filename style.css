@@ -111,6 +111,8 @@ body {
   text-transform: capitalize;
   color: #252a3f;
   font-size: 62px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 .hero__title_green {
   color: #47d18c;
@@ -119,10 +121,12 @@ body {
 .hero__paragraph {
   font-size: 18px;
   font-weight: 400;
+  margin-bottom: 50px;
 }
 
 .hero__buttons-couple {
-  width: 393px;
+  /* width: 393px; */
+  width: 410px;
   display: flex;
   justify-content: space-between;
 }
@@ -153,24 +157,218 @@ body {
 .hero__arrow {
   margin-right: 36px;
 }
-
 .hero__pictures {
   width: 720px;
+  height: 750px;
   background: url(image/hero/hero-background.svg) no-repeat;
 }
-.hero__img {
-  border: 6px solid #0000000f;
-  border-radius: 300px;
-  /* width: 50px;
-  height: 50px; */
+
+/* !Steps */
+
+.steps {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 160px;
 }
-.hero__img:first-child {
-  width: 238px;
-  height: 317px;
+
+.steps__title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 44px;
 }
-.hero__img:last-child {
+.steps_green {
+  color: #47d18c;
+}
+.steps__paragraph {
+  margin-bottom: 160px;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+.steps-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.steps-card__item {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+
+  width: 320px;
+  height: 410px;
+  padding: 40px;
+
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.steps-card__item_black {
+  background-color: #3d425a;
+  color: #eaedb6;
+}
+.steps-card__item:first-child {
+  transform: translateY(-50px);
+}
+.steps-card__item:last-child {
+  transform: translateY(50px);
+}
+
+.steps-card__container {
+  flex-grow: 2;
+}
+.steps-card__number {
+  font-size: 20px;
+  padding: 10px 17px;
+  display: inline;
+  border: 2px solid #3d425a;
+  border-radius: 30px;
+}
+.steps-card__number_black {
+  color: #3d425a;
+  background-color: #eaedb6;
   border: none;
-  /* position: absolute; */
+}
+.steps-card__title {
+  font-size: 32px;
+  font-weight: 700;
+}
+.steps-card__paragraph {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+/* !Sign-Up */
+
+.sign-up {
+  width: 100%;
+  height: 760px;
+  border-radius: 30px;
+  background: url(image/sign-up/figure.svg) center no-repeat;
+  background-color: #b1dfc9;
+  position: relative;
+
+  margin-bottom: 100px;
+}
+.sing-up__col {
+  height: 620px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  padding: 70px 50px;
+}
+
+.sign-up__picture {
+  position: absolute;
+  right: -12%;
+  top: 11%;
+}
+.sign-up__title {
+  margin-top: 70px;
+  margin-bottom: 0px;
+
+  font-size: 44px;
+  font-weight: 600;
+}
+.sing-up__paragraph {
+  margin-top: 0px;
+  margin-bottom: 70px;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.sign-up__button {
+  width: 196px;
+  height: 56px;
+  padding: 0;
+
+  border: 1px solid #aaafbe;
+  border-radius: 12px;
+  background-color: #3d425a;
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sign-up__button-text {
+  margin-left: 36px;
+}
+.sign-up__arrow {
+  margin-right: 36px;
+}
+
+/* !Oppotr */
+.opport {
+  width: 100%;
+  margin-bottom: 200px;
+}
+.opport__title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+.opport_green {
+  color: #47d18c;
+}
+.opport__paragraph {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+
+.opport__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.opport__item {
+  background-color: #ffffff;
+  border-radius: 30px;
+
+  width: 255px;
+  height: 300px;
+  padding: 20px 20px 40px 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+}
+.opport__item:nth-child(2),
+.opport__item:last-child {
+  transform: translateY(80px);
+}
+.opport__card-title {
+  margin: 50px 0 0 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #e1a814;
+}
+.opport__card-title_blue {
+  color: #1f8fff;
+}
+.opport__card-title_green {
+  color: #73b193;
+}
+.opport__card-title_yellow {
+  color: #a3a93b;
+}
+.opport__card-paragraph {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
 }
 /* .footer {
   border-radius: 30px 30px 0 0;
