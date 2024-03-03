@@ -451,8 +451,140 @@ body {
   color: #3d425a;
   font-style: normal;
 }
-/* .footer {
+
+/* !Dream */
+
+.dream {
+  border-radius: 30px;
+  background-color: #b6daff;
+
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom: 100px;
+}
+.dream__col {
+  align-self: center;
+  padding-left: 105px;
+}
+.dream__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  margin: 0 0 60px 0;
+}
+.dream__button {
+  width: 196px;
+  height: 56px;
+  padding: 0 36px;
+
+  border: 1px solid #aaafbe;
+  border-radius: 12px;
+  background-color: #3d425a;
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dream__picture {
+  width: 546px;
+  height: 500px;
+  padding-right: 55px;
+
+  /* background-image: radial-gradient(
+    42.63% 42.63% at 63.09% 46.73%,
+    rgba(64, 160, 255, 0.71) 0%,
+    rgba(182, 218, 255, 0.71) 100%
+  ); */
+
+  /* background: radial-gradient(
+      farthest-corner 42.63% 42.63% at 63.09% 46.73%,
+      rgba(64, 160, 255, 0.71) 0%,
+      rgba(182, 218, 255, 0.71) 100%
+    ) */
+}
+
+/* !Footer */
+.footer {
   border-radius: 30px 30px 0 0;
   width: 100%;
   background-color: #eee8dd;
-} */
+  display: flex;
+  justify-content: center;
+}
+.footer__container {
+  width: 1275px;
+}
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__row:first-child {
+  margin-top: 50px;
+  margin-bottom: 160px;
+}
+.footer__row:last-child {
+  padding: 10px 0 30px 0;
+}
+
+.footer__logo {
+  margin-bottom: 30px;
+}
+.footer__address {
+  font-style: normal;
+  opacity: 50%;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.footer__phone {
+  text-decoration: none;
+  color: #242d3c;
+  opacity: 50%;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.footer__nav {
+  display: flex;
+  gap: 30px;
+}
+.footer__list {
+  font-size: 20px;
+  font-weight: 400;
+  list-style-type: none;
+  margin: 0;
+}
+.footer__list_horiz {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer__link {
+  font-size: 20px;
+  font-weight: 400;
+
+  text-decoration: none;
+  color: #242d3c;
+  opacity: 50%;
+  line-height: 40px;
+}
+.footer__copyright {
+  color: #242d3c;
+  opacity: 50%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+hr {
+  border: 1px solid #888888;
+  opacity: 80%;
+}
